@@ -1,0 +1,1294 @@
+{
+  "info": {
+    "title": "IPSO ID mapping"
+  },
+  "map": {
+    "#/sdfObject/Digital_Input": {
+      "id": 3200
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Digital_Input_State": {
+      "id": 5500
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Digital_Input_Polarity": {
+      "id": 5502
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Digital_Input_Debounce": {
+      "id": 5503
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Digital_Input_Edge_Selection": {
+      "id": 5504
+    },
+    "#/sdfObject/Digital_Input/sdfAction/Digital_Input_Counter_Reset": {
+      "id": 5505
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Digital_Input/sdfProperty/Sensor_Type": {
+      "id": 5751
+    },
+    "#/sdfObject/Digital_Output": {
+      "id": 3201
+    },
+    "#/sdfObject/Digital_Output/sdfProperty/Digital_Output_State": {
+      "id": 5550
+    },
+    "#/sdfObject/Digital_Output/sdfProperty/Digital_Output_Polarity": {
+      "id": 5551
+    },
+    "#/sdfObject/Digital_Output/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Analog_Input": {
+      "id": 3202
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Analog_Input_Current_Value": {
+      "id": 5600
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Analog_Input/sdfProperty/Sensor_Type": {
+      "id": 5751
+    },
+    "#/sdfObject/Analog_Input/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Analog_Output": {
+      "id": 3203
+    },
+    "#/sdfObject/Analog_Output/sdfProperty/Analog_Output_Current_Value": {
+      "id": 5650
+    },
+    "#/sdfObject/Analog_Output/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Analog_Output/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Analog_Output/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Generic_Sensor": {
+      "id": 3300
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Generic_Sensor/sdfProperty/Sensor_Type": {
+      "id": 5751
+    },
+    "#/sdfObject/Generic_Sensor/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Illuminance": {
+      "id": 3301
+    },
+    "#/sdfObject/Illuminance/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Illuminance/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Illuminance/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Illuminance/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Illuminance/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Illuminance/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Illuminance/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Presence": {
+      "id": 3302
+    },
+    "#/sdfObject/Presence/sdfProperty/Digital_Input_State": {
+      "id": 5500
+    },
+    "#/sdfObject/Presence/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/Presence/sdfAction/Digital_Input_Counter_Reset": {
+      "id": 5505
+    },
+    "#/sdfObject/Presence/sdfProperty/Sensor_Type": {
+      "id": 5751
+    },
+    "#/sdfObject/Presence/sdfProperty/Busy_to_Clear_delay": {
+      "id": 5903
+    },
+    "#/sdfObject/Presence/sdfProperty/Clear_to_Busy_delay": {
+      "id": 5904
+    },
+    "#/sdfObject/Temperature": {
+      "id": 3303
+    },
+    "#/sdfObject/Temperature/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Temperature/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Temperature/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Temperature/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Temperature/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Temperature/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Temperature/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Humidity": {
+      "id": 3304
+    },
+    "#/sdfObject/Humidity/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Humidity/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Humidity/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Humidity/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Humidity/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Humidity/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Humidity/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Power_Measurement": {
+      "id": 3305
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Instantaneous_active_power": {
+      "id": 5800
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Min_Measured_active_power": {
+      "id": 5801
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Max_Measured_active_power": {
+      "id": 5802
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Min_Range_active_power": {
+      "id": 5803
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Max_Range_active_power": {
+      "id": 5804
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Cumulative_active_power": {
+      "id": 5805
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Active_Power_Calibration": {
+      "id": 5806
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Instantaneous_reactive_power": {
+      "id": 5810
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Min_Measured_reactive_power": {
+      "id": 5811
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Max_Measured_reactive_power": {
+      "id": 5812
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Min_Range_reactive_power": {
+      "id": 5813
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Max_Range_reactive_power": {
+      "id": 5814
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Cumulative_reactive_power": {
+      "id": 5815
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Reactive_Power_Calibration": {
+      "id": 5816
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Power_factor": {
+      "id": 5820
+    },
+    "#/sdfObject/Power_Measurement/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Power_Measurement/sdfAction/Reset_Cumulative_energy": {
+      "id": 5822
+    },
+    "#/sdfObject/Power_Measurement/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Actuation": {
+      "id": 3306
+    },
+    "#/sdfObject/Actuation/sdfProperty/On_Off": {
+      "id": 5850
+    },
+    "#/sdfObject/Actuation/sdfProperty/Dimmer": {
+      "id": 5851
+    },
+    "#/sdfObject/Actuation/sdfProperty/On_time": {
+      "id": 5852
+    },
+    "#/sdfObject/Actuation/sdfProperty/Multi-state_Output": {
+      "id": 5853
+    },
+    "#/sdfObject/Actuation/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Set_Point": {
+      "id": 3308
+    },
+    "#/sdfObject/Set_Point/sdfProperty/Set_Point_Value": {
+      "id": 5900
+    },
+    "#/sdfObject/Set_Point/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Set_Point/sdfProperty/Colour": {
+      "id": 5706
+    },
+    "#/sdfObject/Set_Point/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Load_Control": {
+      "id": 3310
+    },
+    "#/sdfObject/Load_Control/sdfProperty/Event_Identifier": {
+      "id": 5823
+    },
+    "#/sdfObject/Load_Control/sdfProperty/Start_Time": {
+      "id": 5824
+    },
+    "#/sdfObject/Load_Control/sdfProperty/Duration_In_Min": {
+      "id": 5825
+    },
+    "#/sdfObject/Load_Control/sdfProperty/Criticality_Level": {
+      "id": 5826
+    },
+    "#/sdfObject/Load_Control/sdfProperty/Avg_Load_AdjPct": {
+      "id": 5827
+    },
+    "#/sdfObject/Load_Control/sdfProperty/Duty_Cycle": {
+      "id": 5828
+    },
+    "#/sdfObject/Light_Control": {
+      "id": 3311
+    },
+    "#/sdfObject/Light_Control/sdfProperty/On_Off": {
+      "id": 5850
+    },
+    "#/sdfObject/Light_Control/sdfProperty/Dimmer": {
+      "id": 5851
+    },
+    "#/sdfObject/Light_Control/sdfProperty/On_time": {
+      "id": 5852
+    },
+    "#/sdfObject/Light_Control/sdfProperty/Cumulative_active_power": {
+      "id": 5805
+    },
+    "#/sdfObject/Light_Control/sdfProperty/Power_factor": {
+      "id": 5820
+    },
+    "#/sdfObject/Light_Control/sdfProperty/Colour": {
+      "id": 5706
+    },
+    "#/sdfObject/Light_Control/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Light_Control/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Power_Control": {
+      "id": 3312
+    },
+    "#/sdfObject/Power_Control/sdfProperty/On_Off": {
+      "id": 5850
+    },
+    "#/sdfObject/Power_Control/sdfProperty/Dimmer": {
+      "id": 5851
+    },
+    "#/sdfObject/Power_Control/sdfProperty/On_time": {
+      "id": 5852
+    },
+    "#/sdfObject/Power_Control/sdfProperty/Cumulative_active_power": {
+      "id": 5805
+    },
+    "#/sdfObject/Power_Control/sdfProperty/Power_factor": {
+      "id": 5820
+    },
+    "#/sdfObject/Power_Control/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Accelerometer": {
+      "id": 3313
+    },
+    "#/sdfObject/Accelerometer/sdfProperty/X_Value": {
+      "id": 5702
+    },
+    "#/sdfObject/Accelerometer/sdfProperty/Y_Value": {
+      "id": 5703
+    },
+    "#/sdfObject/Accelerometer/sdfProperty/Z_Value": {
+      "id": 5704
+    },
+    "#/sdfObject/Accelerometer/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Accelerometer/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Accelerometer/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Magnetometer": {
+      "id": 3314
+    },
+    "#/sdfObject/Magnetometer/sdfProperty/X_Value": {
+      "id": 5702
+    },
+    "#/sdfObject/Magnetometer/sdfProperty/Y_Value": {
+      "id": 5703
+    },
+    "#/sdfObject/Magnetometer/sdfProperty/Z_Value": {
+      "id": 5704
+    },
+    "#/sdfObject/Magnetometer/sdfProperty/Compass_Direction": {
+      "id": 5705
+    },
+    "#/sdfObject/Magnetometer/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Barometer": {
+      "id": 3315
+    },
+    "#/sdfObject/Barometer/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Barometer/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Barometer/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Barometer/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Barometer/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Barometer/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Barometer/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Voltage": {
+      "id": 3316
+    },
+    "#/sdfObject/Voltage/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Voltage/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Voltage/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Voltage/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Voltage/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Voltage/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Voltage/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Voltage/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Voltage/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Current": {
+      "id": 3317
+    },
+    "#/sdfObject/Current/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Current/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Current/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Current/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Current/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Current/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Current/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Current/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Current/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Frequency": {
+      "id": 3318
+    },
+    "#/sdfObject/Frequency/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Frequency/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Frequency/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Frequency/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Frequency/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Frequency/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Frequency/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Frequency/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Frequency/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Depth": {
+      "id": 3319
+    },
+    "#/sdfObject/Depth/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Depth/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Depth/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Depth/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Depth/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Depth/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Depth/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Depth/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Depth/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Percentage": {
+      "id": 3320
+    },
+    "#/sdfObject/Percentage/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Percentage/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Percentage/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Percentage/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Percentage/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Percentage/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Percentage/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Percentage/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Percentage/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Altitude": {
+      "id": 3321
+    },
+    "#/sdfObject/Altitude/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Altitude/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Altitude/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Altitude/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Altitude/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Altitude/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Altitude/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Altitude/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Altitude/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Load": {
+      "id": 3322
+    },
+    "#/sdfObject/Load/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Load/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Load/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Load/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Load/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Load/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Load/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Load/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Load/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Pressure": {
+      "id": 3323
+    },
+    "#/sdfObject/Pressure/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Pressure/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Pressure/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Pressure/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Pressure/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Pressure/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Pressure/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Pressure/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Pressure/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Loudness": {
+      "id": 3324
+    },
+    "#/sdfObject/Loudness/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Loudness/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Loudness/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Loudness/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Loudness/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Loudness/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Loudness/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Loudness/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Loudness/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Concentration": {
+      "id": 3325
+    },
+    "#/sdfObject/Concentration/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Concentration/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Concentration/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Concentration/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Concentration/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Concentration/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Concentration/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Concentration/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Concentration/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Acidity": {
+      "id": 3326
+    },
+    "#/sdfObject/Acidity/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Acidity/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Acidity/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Acidity/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Acidity/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Acidity/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Acidity/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Acidity/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Acidity/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Conductivity": {
+      "id": 3327
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Conductivity/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Conductivity/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Power": {
+      "id": 3328
+    },
+    "#/sdfObject/Power/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Power/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Power/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Power/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Power/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Power/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Power/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Power/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Power/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Power_Factor": {
+      "id": 3329
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Power_Factor/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Power_Factor/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Distance": {
+      "id": 3330
+    },
+    "#/sdfObject/Distance/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Distance/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Distance/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Distance/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Distance/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Distance/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Distance/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Distance/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Distance/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Energy": {
+      "id": 3331
+    },
+    "#/sdfObject/Energy/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Energy/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Energy/sdfAction/Reset_Cumulative_energy": {
+      "id": 5822
+    },
+    "#/sdfObject/Energy/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Direction": {
+      "id": 3332
+    },
+    "#/sdfObject/Direction/sdfProperty/Compass_Direction": {
+      "id": 5705
+    },
+    "#/sdfObject/Direction/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Direction/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Direction/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Direction/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Time": {
+      "id": 3333
+    },
+    "#/sdfObject/Time/sdfProperty/Current_Time": {
+      "id": 5506
+    },
+    "#/sdfObject/Time/sdfProperty/Fractional_Time": {
+      "id": 5507
+    },
+    "#/sdfObject/Time/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Gyrometer": {
+      "id": 3334
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/X_Value": {
+      "id": 5702
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Y_Value": {
+      "id": 5703
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Z_Value": {
+      "id": 5704
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Min_X_Value": {
+      "id": 5508
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Max_X_Value": {
+      "id": 5509
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Min_Y_Value": {
+      "id": 5510
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Max_Y_Value": {
+      "id": 5511
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Min_Z_Value": {
+      "id": 5512
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Max_Z_Value": {
+      "id": 5513
+    },
+    "#/sdfObject/Gyrometer/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Gyrometer/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Colour": {
+      "id": 3335
+    },
+    "#/sdfObject/Colour/sdfProperty/Colour": {
+      "id": 5706
+    },
+    "#/sdfObject/Colour/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Colour/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Location": {
+      "id": 3336
+    },
+    "#/sdfObject/Location/sdfProperty/Latitude": {
+      "id": 5514
+    },
+    "#/sdfObject/Location/sdfProperty/Longitude": {
+      "id": 5515
+    },
+    "#/sdfObject/Location/sdfProperty/Uncertainty": {
+      "id": 5516
+    },
+    "#/sdfObject/Location/sdfProperty/Compass_Direction": {
+      "id": 5705
+    },
+    "#/sdfObject/Location/sdfProperty/Velocity": {
+      "id": 5517
+    },
+    "#/sdfObject/Location/sdfProperty/Timestamp": {
+      "id": 5518
+    },
+    "#/sdfObject/Location/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Positioner": {
+      "id": 3337
+    },
+    "#/sdfObject/Positioner/sdfProperty/Current_Position": {
+      "id": 5536
+    },
+    "#/sdfObject/Positioner/sdfProperty/Transition_Time": {
+      "id": 5537
+    },
+    "#/sdfObject/Positioner/sdfProperty/Remaining_Time": {
+      "id": 5538
+    },
+    "#/sdfObject/Positioner/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Positioner/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Positioner/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Positioner/sdfProperty/Min_Limit": {
+      "id": 5519
+    },
+    "#/sdfObject/Positioner/sdfProperty/Max_Limit": {
+      "id": 5520
+    },
+    "#/sdfObject/Positioner/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Buzzer": {
+      "id": 3338
+    },
+    "#/sdfObject/Buzzer/sdfProperty/On_Off": {
+      "id": 5850
+    },
+    "#/sdfObject/Buzzer/sdfProperty/Level": {
+      "id": 5548
+    },
+    "#/sdfObject/Buzzer/sdfProperty/Delay_Duration": {
+      "id": 5521
+    },
+    "#/sdfObject/Buzzer/sdfProperty/Minimum_Off-time": {
+      "id": 5525
+    },
+    "#/sdfObject/Buzzer/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Audio_Clip": {
+      "id": 3339
+    },
+    "#/sdfObject/Audio_Clip/sdfProperty/Clip": {
+      "id": 5522
+    },
+    "#/sdfObject/Audio_Clip/sdfAction/Trigger": {
+      "id": 5523
+    },
+    "#/sdfObject/Audio_Clip/sdfProperty/Level": {
+      "id": 5548
+    },
+    "#/sdfObject/Audio_Clip/sdfProperty/Duration": {
+      "id": 5524
+    },
+    "#/sdfObject/Audio_Clip/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Timer": {
+      "id": 3340
+    },
+    "#/sdfObject/Timer/sdfProperty/Delay_Duration": {
+      "id": 5521
+    },
+    "#/sdfObject/Timer/sdfProperty/Remaining_Time": {
+      "id": 5538
+    },
+    "#/sdfObject/Timer/sdfProperty/Minimum_Off-time": {
+      "id": 5525
+    },
+    "#/sdfObject/Timer/sdfAction/Trigger": {
+      "id": 5523
+    },
+    "#/sdfObject/Timer/sdfProperty/On_Off": {
+      "id": 5850
+    },
+    "#/sdfObject/Timer/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/Timer/sdfProperty/Cumulative_Time": {
+      "id": 5544
+    },
+    "#/sdfObject/Timer/sdfProperty/Digital_State": {
+      "id": 5543
+    },
+    "#/sdfObject/Timer/sdfProperty/Counter": {
+      "id": 5534
+    },
+    "#/sdfObject/Timer/sdfProperty/Timer_Mode": {
+      "id": 5526
+    },
+    "#/sdfObject/Timer/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Addressable_Text_Display": {
+      "id": 3341
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Text": {
+      "id": 5527
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/X_Coordinate": {
+      "id": 5528
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Y_Coordinate": {
+      "id": 5529
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Max_X_Coordinate": {
+      "id": 5545
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Max_Y_Coordinate": {
+      "id": 5546
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfAction/Clear_Display": {
+      "id": 5530
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Level": {
+      "id": 5548
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Contrast": {
+      "id": 5531
+    },
+    "#/sdfObject/Addressable_Text_Display/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/On_Off_switch": {
+      "id": 3342
+    },
+    "#/sdfObject/On_Off_switch/sdfProperty/Digital_Input_State": {
+      "id": 5500
+    },
+    "#/sdfObject/On_Off_switch/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/On_Off_switch/sdfProperty/On_time": {
+      "id": 5852
+    },
+    "#/sdfObject/On_Off_switch/sdfProperty/Off_Time": {
+      "id": 5854
+    },
+    "#/sdfObject/On_Off_switch/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Dimmer": {
+      "id": 3343
+    },
+    "#/sdfObject/Dimmer/sdfProperty/Level": {
+      "id": 5548
+    },
+    "#/sdfObject/Dimmer/sdfProperty/On_time": {
+      "id": 5852
+    },
+    "#/sdfObject/Dimmer/sdfProperty/Off_Time": {
+      "id": 5854
+    },
+    "#/sdfObject/Dimmer/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Up_Down_Control": {
+      "id": 3344
+    },
+    "#/sdfObject/Up_Down_Control/sdfProperty/Increase_Input_State": {
+      "id": 5532
+    },
+    "#/sdfObject/Up_Down_Control/sdfProperty/Decrease_Input_State": {
+      "id": 5533
+    },
+    "#/sdfObject/Up_Down_Control/sdfProperty/Up_Counter": {
+      "id": 5541
+    },
+    "#/sdfObject/Up_Down_Control/sdfProperty/Down_Counter": {
+      "id": 5542
+    },
+    "#/sdfObject/Up_Down_Control/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Multiple_Axis_Joystick": {
+      "id": 3345
+    },
+    "#/sdfObject/Multiple_Axis_Joystick/sdfProperty/Digital_Input_State": {
+      "id": 5500
+    },
+    "#/sdfObject/Multiple_Axis_Joystick/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/Multiple_Axis_Joystick/sdfProperty/X_Value": {
+      "id": 5702
+    },
+    "#/sdfObject/Multiple_Axis_Joystick/sdfProperty/Y_Value": {
+      "id": 5703
+    },
+    "#/sdfObject/Multiple_Axis_Joystick/sdfProperty/Z_Value": {
+      "id": 5704
+    },
+    "#/sdfObject/Multiple_Axis_Joystick/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Rate": {
+      "id": 3346
+    },
+    "#/sdfObject/Rate/sdfProperty/Sensor_Value": {
+      "id": 5700
+    },
+    "#/sdfObject/Rate/sdfProperty/Sensor_Units": {
+      "id": 5701
+    },
+    "#/sdfObject/Rate/sdfProperty/Min_Measured_Value": {
+      "id": 5601
+    },
+    "#/sdfObject/Rate/sdfProperty/Max_Measured_Value": {
+      "id": 5602
+    },
+    "#/sdfObject/Rate/sdfProperty/Min_Range_Value": {
+      "id": 5603
+    },
+    "#/sdfObject/Rate/sdfProperty/Max_Range_Value": {
+      "id": 5604
+    },
+    "#/sdfObject/Rate/sdfAction/Reset_Min_and_Max_Measured_Values": {
+      "id": 5605
+    },
+    "#/sdfObject/Rate/sdfProperty/Current_Calibration": {
+      "id": 5821
+    },
+    "#/sdfObject/Rate/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Push_button": {
+      "id": 3347
+    },
+    "#/sdfObject/Push_button/sdfProperty/Digital_Input_State": {
+      "id": 5500
+    },
+    "#/sdfObject/Push_button/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/Push_button/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Multi-state_Selector": {
+      "id": 3348
+    },
+    "#/sdfObject/Multi-state_Selector/sdfProperty/Multi-state_Input": {
+      "id": 5547
+    },
+    "#/sdfObject/Multi-state_Selector/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Bitmap": {
+      "id": 3349
+    },
+    "#/sdfObject/Bitmap/sdfProperty/Bitmap_Input": {
+      "id": 5910
+    },
+    "#/sdfObject/Bitmap/sdfAction/Bitmap_Input_Reset": {
+      "id": 5911
+    },
+    "#/sdfObject/Bitmap/sdfProperty/Element_Description": {
+      "id": 5912
+    },
+    "#/sdfObject/Bitmap/sdfProperty/Application_Type": {
+      "id": 5750
+    },
+    "#/sdfObject/Stopwatch": {
+      "id": 3350
+    },
+    "#/sdfObject/Stopwatch/sdfProperty/Cumulative_Time": {
+      "id": 5544
+    },
+    "#/sdfObject/Stopwatch/sdfProperty/On_Off": {
+      "id": 5850
+    },
+    "#/sdfObject/Stopwatch/sdfProperty/Digital_Input_Counter": {
+      "id": 5501
+    },
+    "#/sdfObject/Stopwatch/sdfProperty/Application_Type": {
+      "id": 5750
+    }
+  }
+}
